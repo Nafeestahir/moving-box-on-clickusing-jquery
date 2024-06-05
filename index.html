@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Document</title>
+    <style>
+        .list {
+            border: 2px solid black;
+            padding: 34px;
+            width: 250px;
+            margin: 5px;
+            background-color: red;
+            color: white;
+            font-size: 27px;
+        }
+
+        .maindiv {
+            display: flex;
+            justify-content: center;
+        }
+
+        #right,
+        #left {
+            border: 2px solid black;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+
+        .list {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="InputVal" type="number" style="margin: 34px;" value="5">
+    <button id="btn">submit</button>
+    <div class="maindiv">
+        <div id="left">
+
+        </div>
+        <div id="right">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
